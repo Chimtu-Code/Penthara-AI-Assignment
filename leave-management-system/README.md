@@ -61,4 +61,4 @@ npm run dev
 - Admin Login is mocked.
 - The application is designed for **one employee and one admin**.
 - In case if you feel this process is lengthy, I made it simple for you by deploying it in vercel
-- Here is the link for the application 
+- You can check it out here 
