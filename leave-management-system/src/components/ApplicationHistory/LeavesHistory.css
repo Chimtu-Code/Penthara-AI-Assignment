@@ -1,0 +1,82 @@
+.leaves-history-card {
+  width: 100%;
+  max-width: 580px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px -1px grey;
+  max-height: 420px;
+  font-family: "Poppins", sans-serif;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.leaves-history-card h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.history-card {
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.history-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.history-card-header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.history-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.history-details p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.status-badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.status-badge.pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status-badge.approved {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-badge.rejected {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.empty-history {
+  text-align: center;
+  color: grey;
+  padding: 30px 0;
+}

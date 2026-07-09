@@ -1,0 +1,47 @@
+.nav-bar{
+  height: 100px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nav-bar-wrapper{
+  max-width: 1240px;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 00px 0px 10px -1px grey;
+}
+
+.nav-bar > div{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo-section{
+  padding: 10px;
+  height: 100%;
+}
+
+.logo-img{
+  height: 100%;
+  width: auto;
+  border-radius: 10px;
+}
+
+.header-name{
+  font-size:20px;
+  font-style: bold;
+  font-weight: 600;
+}
+
+.user-name{
+  padding: 10px;
+  font-size: 14px;
+}

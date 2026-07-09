@@ -1,0 +1,17 @@
+.dashboard{
+  width: 100vw;
+  height: auto;
+}
+
+.form-n-history{
+  width: 100vw;
+  max-width: 1240px;
+  margin: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  gap: 20px;
+}
